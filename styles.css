@@ -161,3 +161,16 @@ footer { padding: 28px 8vw; display: flex; justify-content: space-between; color
   .world-grid h3 { margin-top: 45px; }
   footer { padding: 24px 6vw; }
 }
+
+
+/* Part 3 — game specifications */
+.specs { background: #121319; }
+.specs-head { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; align-items: end; }
+.specs-intro { max-width: 470px; color: var(--muted); line-height: 1.8; font-size: 14px; }
+.spec-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 55px; background: var(--line); }
+.spec { min-height: 205px; padding: 26px; background: #121319; display: flex; flex-direction: column; justify-content: space-between; }
+.spec span { color: var(--accent); font-size: 10px; font-weight: 800; letter-spacing: .18em; }
+.spec strong { font-family: "Space Grotesk", sans-serif; font-size: 28px; }
+.spec small { color: var(--muted); line-height: 1.5; font-size: 11px; }
+@media (max-width: 900px) { .specs-head { grid-template-columns: 1fr; } .spec-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 760px) { .spec-grid { grid-template-columns: 1fr; } .spec { min-height: 160px; } }
