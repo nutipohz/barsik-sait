@@ -10,6 +10,7 @@
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
+
   <header class="topbar">
     <a class="brand" href="#top" aria-label="Барсик">
       <span class="brand-mark">Б</span>
@@ -18,6 +19,7 @@
     <nav>
       <a href="#game">Игра</a>
       <a href="#world">Мир</a>
+      <a href="#gallery">Кадры</a>
       <a href="#download">Скачать</a>
     </nav>
   </header>
@@ -27,21 +29,23 @@
       <div class="hero-copy">
         <p class="eyebrow">INDIE • ANDROID • HORROR</p>
         <h1>Не шуми.<br><span>Барсик рядом.</span></h1>
-        <p class="lead">Новая страница игры с нуля. Здесь главное — атмосфера, дом и тот самый Барсик.</p>
+        <p class="lead">Исследуй дом, ищи выход и постарайся не привлечь внимание хозяина. Это новый официальный сайт игры — с отдельным дизайном и без старой системы сайта.</p>
         <div class="actions">
           <a class="button button-primary" href="#download">Скачать игру</a>
-          <a class="button button-ghost" href="#game">Узнать больше</a>
+          <a class="button button-ghost" href="#game">Об игре</a>
         </div>
       </div>
+
       <div class="hero-card" aria-label="Барсик">
         <div class="cat-glow"></div>
         <div class="cat-face">◕‿◕</div>
         <span class="card-label">BARSik.exe</span>
+        <span class="card-corner">01</span>
       </div>
     </section>
 
     <section class="ticker" aria-label="Слоган">
-      <span>ДОМ • ТИШИНА • БАРСИК • ПОБЕГ • ДОМ • ТИШИНА • БАРСИК</span>
+      <span>ДОМ • ТИШИНА • БАРСИК • ПОБЕГ • ДОМ • ТИШИНА • БАРСИК • ПОБЕГ • </span>
     </section>
 
     <section class="section split" id="game">
@@ -50,11 +54,11 @@
         <h2>Обычный дом.<br><em>Необычный хозяин.</em></h2>
       </div>
       <div class="text">
-        <p>Исследуй дом, двигайся осторожно и ищи путь наружу. Сайт тоже будет развиваться вместе с игрой.</p>
+        <p>«Барсик» — игра про исследование дома и попытку выбраться наружу. Здесь нет лишнего: только пространство, атмосфера и постоянное ощущение, что за тобой наблюдают.</p>
         <div class="facts">
           <div><strong>01</strong><span>Исследование дома</span></div>
           <div><strong>02</strong><span>Атмосфера хоррора</span></div>
-          <div><strong>03</strong><span>Барсик следит</span></div>
+          <div><strong>03</strong><span>Поиск выхода</span></div>
         </div>
       </div>
     </section>
@@ -62,20 +66,61 @@
     <section class="section world" id="world">
       <div class="section-number">02 / МИР</div>
       <div class="world-grid">
-        <article><span>01</span><h3>Дом</h3><p>Комнаты, коридоры и места, где лучше не задерживаться.</p></article>
-        <article><span>02</span><h3>Барсик</h3><p>Главная причина смотреть по сторонам.</p></article>
-        <article><span>03</span><h3>Выход</h3><p>Он существует. Вопрос только в том, как до него добраться.</p></article>
+        <article>
+          <span>01</span>
+          <h3>Дом</h3>
+          <p>Комнаты, коридоры и места, которые постепенно становятся знакомыми.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Барсик</h3>
+          <p>Главный персонаж дома. Лучше всегда помнить, что он где-то рядом.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Выход</h3>
+          <p>Цель проста: найти путь наружу и добраться до него.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="gallery-head">
+        <div>
+          <p class="section-number">03 / КАДРЫ</p>
+          <h2>Загляни<br><em>в дом.</em></h2>
+        </div>
+        <p class="gallery-note">В этот раздел позже можно поставить настоящие скриншоты игры. Пока здесь — визуальная подача без выдуманных игровых кадров.</p>
+      </div>
+
+      <div class="shots">
+        <div class="shot shot-wide">
+          <div class="shot-scene scene-room"><span>ROOM_01</span></div>
+          <p>Комната</p>
+        </div>
+        <div class="shot">
+          <div class="shot-scene scene-hall"><span>HALL_02</span></div>
+          <p>Коридор</p>
+        </div>
+        <div class="shot">
+          <div class="shot-scene scene-door"><span>EXIT_03</span></div>
+          <p>Выход</p>
+        </div>
       </div>
     </section>
 
     <section class="download" id="download">
       <div>
-        <p class="section-number">03 / DOWNLOAD</p>
+        <p class="section-number">04 / DOWNLOAD</p>
         <h2>Готов к встрече<br>с Барсиком?</h2>
       </div>
       <div class="download-box">
-        <p>Страница загрузки будет добавлена следующим этапом.</p>
-        <span>ANDROID</span>
+        <div>
+          <span class="download-label">ANDROID</span>
+          <h3>Игра</h3>
+          <p>Кнопка загрузки появится здесь, когда будет готов актуальный файл игры.</p>
+        </div>
+        <a class="button button-primary disabled" href="#download" aria-disabled="true">Скоро</a>
       </div>
     </section>
   </main>
@@ -84,6 +129,7 @@
     <span>БАРСИК</span>
     <span>Новый сайт • 2026</span>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
